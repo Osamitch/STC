@@ -30,7 +30,7 @@ floatfinderstruct_t maxfloatfinder(const float *const array, const unsigned int 
         float value;
     } pair;
 
-    float border_value = 0 ;
+    float border_value = 0;
 
     pair *p_pairs = (pair *)calloc(sizeof(pair), N);
     for (int i = 0; i < N; ++i)

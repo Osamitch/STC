@@ -12,7 +12,7 @@ int main()
     N = 3;
     test_struct = maxfloatfinder(array2, N, K);
     printf("Test case 1. indexes: [ ");
-    for (int i = 0; i < test_struct.indexes_length ;i++)
+    for (int i = 0; i < test_struct.indexes_length; i++)
     {
         printf("%d ", test_struct.indexes[i]);
     }
@@ -24,7 +24,7 @@ int main()
     N = 3;
     test_struct = maxfloatfinder(array3, N, K);
     printf("Test case 2. indexes: [ ");
-    for (int i = 0; i < test_struct.indexes_length ;i++)
+    for (int i = 0; i < test_struct.indexes_length; i++)
     {
         printf("%d ", test_struct.indexes[i]);
     }
@@ -36,7 +36,7 @@ int main()
     N = 5;
     test_struct = maxfloatfinder(array4, N, K);
     printf("Test case 3. indexes: [ ");
-    for (int i = 0; i < test_struct.indexes_length ;i++)
+    for (int i = 0; i < test_struct.indexes_length; i++)
     {
         printf("%d ", test_struct.indexes[i]);
     }
@@ -48,13 +48,13 @@ int main()
     N = 10;
     test_struct = maxfloatfinder(array5, N, K);
     printf("Test case 4. indexes: [ ");
-    for (int i = 0; i < test_struct.indexes_length ;i++)
+    for (int i = 0; i < test_struct.indexes_length; i++)
     {
         printf("%d ", test_struct.indexes[i]);
     }
     printf("], length = %d \n", test_struct.indexes_length);
     free(test_struct.indexes);
-
+    getchar();
 
     return 0;
 }
