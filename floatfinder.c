@@ -71,7 +71,7 @@ floatfinderstruct_t maxfloatfinder(const float *const array, const unsigned int 
     }
 
     //step 3: fill return struct with indexes to array and length of this array
-    returnstruct.indexes = calloc(sizeof(float), returnstruct.indexes_length);
+    returnstruct.indexes = calloc(sizeof(int), returnstruct.indexes_length);
     for (int i = 0; i < returnstruct.indexes_length; ++i)
     {
         returnstruct.indexes[i] = p_pairs[i].index;
